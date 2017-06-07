@@ -11,6 +11,12 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        /* Access query parameters */
+        String name = request.getParameter("name");
+
+        /* Make it available to JSP */
+        request.setAttribute("name", name);
+
         request.getRequestDispatcher("/WEB-INF/views/login.jsp")     /* starts from WEB-INF */
                 .forward(request, response);
     }

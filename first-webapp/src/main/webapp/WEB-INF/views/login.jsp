@@ -12,6 +12,6 @@
     <title>Navid's Web App</title>
 </head>
 <body>
-    <p>Hello, from JSP!</p>
+    <p>Hello ${name}, from JSP!</p>
 </body>
 </html>
