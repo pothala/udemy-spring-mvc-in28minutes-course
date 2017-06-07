@@ -13,7 +13,7 @@
     <title>Navid's Web App</title>
 </head>
 <%
-    /* Scriptlet */
+    /* Scriptlet (note: not recommended!) */
     System.out.println(request.getParameter("name"));
     Date date = new Date();
 %>
