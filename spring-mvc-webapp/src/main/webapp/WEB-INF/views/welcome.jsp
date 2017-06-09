@@ -3,6 +3,6 @@
     <title>Spring MVC App</title>
 </head>
 <body>
-Welcome ${name}
+Welcome ${name}. You entered ${password}
 </body>
 </html>
