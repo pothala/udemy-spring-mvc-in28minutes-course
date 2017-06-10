@@ -1,17 +1,15 @@
 <%--
-  Created by IntelliJ IDEA.
+  list-todos.jsp
   User: nrojiani
-  Date: 6/8/17
-  Time: 10:18 PM
-  To change this template use File | Settings | File Templates.
+  Date: 6/9/17
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title>Todos for ${name}</title>
+    <title>TODOs for ${name}</title>
 </head>
 <body>
-<H1>Your Todos</H1>
+<h1>Your TODOs</h1>
 ${todos}
 </body>
 </html>
