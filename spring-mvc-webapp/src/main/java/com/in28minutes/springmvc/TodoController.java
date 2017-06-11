@@ -15,10 +15,9 @@ public class TodoController {
     @Autowired
     TodoService todoService;
 
-
     @RequestMapping(value = "/list-todos", method = RequestMethod.GET)
-    public String showLoginPage(ModelMap model, String name) {
-        String user = (String) model.get(name);
+    public String showLoginPage(ModelMap model) {
+        String user = (String) model.get("name");
         model.addAttribute("todos", todoService.retrieveTodos(user));
         return "list-todos";
     }

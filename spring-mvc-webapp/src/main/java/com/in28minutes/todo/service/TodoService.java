@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 
 @Service
@@ -21,7 +20,7 @@ public class TodoService {
     }
 
     public List<Todo> retrieveTodos(String user) {
-        List<Todo> filteredTodos = new ArrayList<Todo>();
+        List<Todo> filteredTodos = new ArrayList<>();
         for (Todo todo : todos) {
             if (todo.getUser().equals(user))
                 filteredTodos.add(todo);
@@ -34,12 +33,6 @@ public class TodoService {
     }
 
     public void deleteTodo(int id) {
-        Iterator<Todo> iterator = todos.iterator();
-        while (iterator.hasNext()) {
-            Todo todo = iterator.next();
-            if (todo.getId() == id) {
-                iterator.remove();
-            }
-        }
+        todos.removeIf(todo -> todo.getId() == id);
     }
 }
