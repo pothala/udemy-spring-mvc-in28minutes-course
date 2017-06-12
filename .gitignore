@@ -15,6 +15,12 @@ factoryConfiguration.json
 # User-specific stuff:
 */.idea/**/workspace.xml
 */.idea/
+*/*/.idea/
+*/*/.idea/*
+**/.idea/
+**/.idea/*
+part-2-spring-mvc/spring-mvc-webapp/.idea/
+part-2-spring-mvc/spring-mvc-webapp/.idea/*
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
@@ -240,3 +246,5 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # End of https://www.gitignore.io/api/vim,java,maven,macos,gradle,intellij,java-web,code-java,sublimetext,intellij+iml
+part-2-spring-mvc/spring-mvc-webapp/.idea
+part-2-spring-mvc/spring-mvc-webapp/.idea

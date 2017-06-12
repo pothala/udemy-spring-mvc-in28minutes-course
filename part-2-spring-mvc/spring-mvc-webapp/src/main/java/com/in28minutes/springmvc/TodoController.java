@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import java.util.Date;
 
+/**
+ * {@link Controller} for managing the To-Dos in the application.
+ */
 @Controller
 @SessionAttributes("name")
 public class TodoController {
@@ -26,7 +29,7 @@ public class TodoController {
     }
 
     @RequestMapping(value = "/add-todo", method = RequestMethod.GET)
-    public String showTodoPage(ModelMap model) {
+    public String showTodoPage() {
         return "todo";
     }
 

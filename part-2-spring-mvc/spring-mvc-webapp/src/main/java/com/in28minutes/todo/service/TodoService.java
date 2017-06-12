@@ -7,10 +7,11 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class TodoService {
-    private static List<Todo> todos = new ArrayList<Todo>();
+    private static List<Todo> todos = new ArrayList<>();
     private static int todoCount = 3;
 
     static {
@@ -20,12 +21,9 @@ public class TodoService {
     }
 
     public List<Todo> retrieveTodos(String user) {
-        List<Todo> filteredTodos = new ArrayList<>();
-        for (Todo todo : todos) {
-            if (todo.getUser().equals(user))
-                filteredTodos.add(todo);
-        }
-        return filteredTodos;
+        return todos.stream()
+                .filter(todo -> todo.getUser().equals(user))
+                .collect(Collectors.toList());
     }
 
     public void addTodo(String name, String description, Date targetDate, boolean isDone) {

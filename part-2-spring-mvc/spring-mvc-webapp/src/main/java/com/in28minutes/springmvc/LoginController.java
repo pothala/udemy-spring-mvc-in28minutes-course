@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
+/**
+ * {@link Controller} for handling authentication.
+ */
 @Controller
 @SessionAttributes("name")
 public class LoginController {
