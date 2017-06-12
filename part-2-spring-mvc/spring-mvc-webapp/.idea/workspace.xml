@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae9c5172-e56f-4765-971f-57741f4f95e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="$PROJECT_DIR$/../../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/nrojiani.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/nrojiani.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/springmvc/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springmvc/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/springmvc/TodoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/springmvc/TodoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/todo/service/TodoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/todo/service/TodoService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list-todos.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list-todos.jsp" />
-    </list>
+    <list default="true" id="ae9c5172-e56f-4765-971f-57741f4f95e4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -815,12 +806,12 @@
       <workItem from="1497228516016" duration="641000" />
       <workItem from="1497229331907" duration="3030000" />
       <workItem from="1497232885331" duration="529000" />
-      <workItem from="1497234659721" duration="2294000" />
+      <workItem from="1497234659721" duration="2367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34329000" />
+    <option name="totallyTimeSpent" value="34402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
