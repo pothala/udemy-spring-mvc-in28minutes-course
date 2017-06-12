@@ -20,4 +20,7 @@
         </property>
     </bean>
 
+    <!-- use WebJars -->
+    <mvc:resources mapping="/webjars/**" location="/webjars/"/>
+
 </beans>
